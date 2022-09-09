@@ -1,10 +1,8 @@
 # Markdown Beginner Guide
 
-The README.ms files are big part of the project we make on GitHub because they contain information about the project itself. The md part of the name of the file stands for Markdown and it means that that s the type of the file. The main goal of Markdown is to be easily both written and read. Markdown can also be used to create email.
 
-Visual Studio Code uses the [CommonMark](http://commonmark.org/) Markdown specification.
 
-# Content
+## Table of Contents
 
 - [Intro](#intro)
 - [Guide](#guide)
@@ -20,10 +18,16 @@ Visual Studio Code uses the [CommonMark](http://commonmark.org/) Markdown specif
     - [Custom CSS](#custom-css)
 - [Tips](#tips)
 
-# Guide
-## Headers
+## Intro
 
-Headers are defined by the '#' symbol.
+The README.md files are big part of the project on GitHub because they contain information about the project itself. The "md" part of the file name stands for "Markdown" and that is the type of the file. /*The main goal of Markdown text is to be easily both written and read. Markdown can also be used to create email.*/
+
+Visual Studio Code uses the [CommonMark](http://commonmark.org/) Markdown specification.
+## Guide
+### Headers
+
+Headers are defined by the '#' symbol. In order ro work properly between the symbol and the title text should have space. 
+The count of the symbols defines the font size. One is the biggest and as many as you put as smaller they become.
 
 # Heading
 <!--  # Heading -->
@@ -37,53 +41,54 @@ Headers are defined by the '#' symbol.
 #### Heading
 <!--  #### Heading -->
 
-
-## Quotes
-Quotes are defined by the '>' symbol.
+### Quotes
+Quotes are defined by the '>' symbol followed by the text.
 
 > Example
 
-## Emphasis
+### Emphasis
 
-Add emphasis with asterisks '*' and underscores '_'
+Add emphasis with asterisks '*' and underscores '_'.
 
 *Example* 
 
-
 _Example_ 
 
+### Lists
 
-## Lists
-
-Create unordered lists using '-', '*', '+' infront the item
+Create unordered lists using '-', '*', '+' infront of the item.
 
 - item
 * item
 + item
 
-Also you can create sublist by indenting - using tab button
+You can also create sublist by indenting - using tab button.
 
 - list
     - sublist
         - another
 
+<!-- - list
+    - sublist
+        - another -->
 
-Create ordered lists just by using number prefix
+Create ordered lists just by using number prefix.
 
 1. item 1
 2. item 2
 3. item 3
 
+### Links
 
-## Links
-
-Creating a link by surrounding it with angle bracket 
+Creating a link by surrounding the text with angle bracket:
 
 <https://github.com/Krissttina>
 
-To rename a link or to set a custom name to a link you should use '[]' and the wanted text inside and after that the link set in '()' without empry space between
+<!-- <https://github.com/Krissttina> -->
 
-Example: [My project](https://github.com/Krissttina)
+    To rename a link or to set a custom name to a link you should use '[]' (where you put the name you want to call the link) and immediatly after that the link set in '()'. Note: There should not be space between them.
+
+Example: [My project](https://github.com/Krissttina) -> the link is exactly the same
 
 
 ## Images
