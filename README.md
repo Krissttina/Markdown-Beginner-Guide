@@ -157,29 +157,27 @@ The technique with the CSS code is the same.
 
 ## Tips
 
-Writing a good README
+### Tips for writing a good README
 
-Open a README.md. file in a new project. 
+1. Open a README.md file in a new project. 
 
-Make sure the file always includes the following elements: 
+2. Make sure the file always includes the following elements: 
 
-* Titles and internal titles 
-* Introduction - the project's aim 
-* Technologies 
+    * Titles and internal titles 
+    * Introduction 
+        * The project's aim 
+    * Technologies 
+        * Used to build the project
+    * Table of contents 
+        * To make navigation through the md easier
+    * Illustrations  
+    * Examples of use   
+    * Sources 
 
-Launch 
+## Markdown Preview Github Extension for VS Code
 
- 
-Consider also using additional elements such as:  
-
-- Table of contents 
-- Illustrations 
-- Scope of functionalities  
-- Examples of use 
-- Project status  
-- Sources 
-
-## Markdown Preview Github Extencion for VS Code
 Perfect Extension for VSCode about writing and instantly reviewing the result.
 
-Shortcut: Ctrl + shitf + v -> github pr 
+    Markdown Preview Github Styling
+
+Shortcut: Ctrl + shitf + v
