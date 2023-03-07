@@ -95,7 +95,7 @@ Defining an image is similar to defining a link. In this case you should start w
 
 ![Git logo](https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/042017/untitled-2_5.png?itok=IlsUnu37)
 
-or you can just reference it for example: ![name][type]
+or you can just reference it for example: ![name](image path)
 
 
 ### Tables
